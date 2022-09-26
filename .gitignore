@@ -1,0 +1,18 @@
+*.o
+*.txt
+damgard
+*.log
+*.aux
+*.pdf
+*.out
+*.gz
+*.bbl
+*.fls
+*.blg
+*.fdb*
+
+# we put the execution time obtained with the implementation in the git:
+# this allow one to compile the pdf without to execute the code.
+!time_damgard/*.txt
+*.rip*
+auto
